@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial;
+}
+.leftmenu{
+    width: 200px;
+    background-color: #1f232a;
+    position: fixed;
+    left: 0;
+    top:0;
+    bottom:0;
+}
+.company_name{
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center ;
+}
+.menuarea ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuarea li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+}
+.menuarea li:hover{
+    background-color: #000;
+}
+.menuarea li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+.menuarea li:nth-child(1){
+    background-image: url('../images/home.png');
+}
+.menuarea li:nth-child(2){
+    background-image: url('../images/key_home.png');
+
+}
+
+.menuarea li:nth-child(3){
+    background-image: url('../images/users.png');
+
+}
+
+.menuarea li:nth-child(4){
+    background-image: url('../images/clients.png');
+
+}
+
+.menuarea li:nth-child(5){
+    background-image: url('../images/storage.png');
+
+}
+
+.menuarea li:nth-child(6){
+    background-image: url('../images/sales.png');
+
+}
+.container{
+    padding-left: 200px;
+}
+.top{
+    height: 40px;
+    background-color: #232830 ;
+    color: white;
+    font-size: 15px;
+}
+.top_right{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top_right a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.area{
+    padding: 15px;
+}
+.tabarea{
+    height: 40px;
+}
+.tabitem{
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.activetab{
+    border-bottom: 1px solid black;
+    background-color: #EEEEEE;
+}
+.tabbody{
+    display: none;
+    margin-top: 20px;
+}
+
+input[type=text]{
+    height: 30px;
+    font-size: 13px;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+textarea{
+    height: 200px;
+    font-size: 13px;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #CCC;
+}
+
+input[type=email],input[type=password],input[type=number],select{
+    height: 30px;
+    font-size: 13px;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+input[type=submit],button , .button{
+    border: 0;
+    background-color: #224074;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 40px;
+}
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.button_small{
+    height: 30px;
+    line-height: 30px;
+}
+.button_del{
+    background-color: #601414;
+}
+.button_edit{
+    background-color: #005500;
+}
+.button_view{
+    background-color: #5776e3;
+}
+table{
+    margin-top: 10px;
+}
+table th{
+    height: 40px;
+    line-height: 40px;
+    background-color: #DDD;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table td{
+    height: 40px;
+    line-height: 40px;
+    background-color: #EEEEEE;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.p_item{
+    height: 30px;
+    line-height: 30px;
+}
+
+.warning{
+    border: 2px solid #FF0000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF9999;
+    color: white;
+}
+.pagination{
+    float: right ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.pagination a{
+    text-decoration: none;
+    color: black;
+}
+.pagination a:hover{
+    color: #ffffff;
+}
+.pag_item{
+    width: 20px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 20px;
+}
+.pag_ativo {
+    background-color: #224074;
+}
+a .pag_ativo{
+    color: #ffffff;
+}
+div .pag_item:hover {
+    background-color: #224074;
+}
+#search{
+    width: 100px;
+    float: right;
+    background-image: url('../images/search.png');
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 7px 10px;
+    border: solid 1px #CCCCCC;
+    padding-left: 25px;
+    border-radius: 3px;
+}
+.searchresults{
+    width: 348px;
+    background-color: #ffffff;
+    position: absolute;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+.si{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.si:hover{
+    background-color: #b5b5b5;
+}
+.searchresults a{
+    text-decoration: none;
+    color: black;
+}
+#client_name{
+    width: 250px;
+    float: left;
+}
+.client_add_button{
+    font-size: 17px;
+    height: 30px;
+    line-height: 26px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+#sales_id{
+    width: 100px;
+}
+.p_quant{
+    width: 60px !important;
+}
